@@ -1,0 +1,29 @@
+\pagenumbering{Roman}                  %% Pagenumering can be in Roman or arabic
+\cfoot{\thepage}                       %% cfoot means centered footer(page no.)
+
+%-------------------------------------------------------------------
+\begin{abstract}
+Content here....
+\end{abstract}
+%---------------------------------------------------------------------------
+\include{acknowledge}
+%----------------------------------------------------------------------------------------
+%---------------------------------------------------------
+%\include{ToWhomitmayconcern}
+%---------------------------------------------------------------
+
+
+
+
+\tableofcontents                       %% This command automatically generates Index page
+
+\listoffigures                         %% This command creates a list of figures in the document
+\newpage
+
+\pagenumbering{arabic}                  %% now onwards arabic page numbeing is required
+\cfoot{\thepage}                        %% centered footer (page no.)
+
+%------------------------------------------------------
+\section{Introduction To Organisation}
+\include{organisation}
+%-----------------------------------------------------------
